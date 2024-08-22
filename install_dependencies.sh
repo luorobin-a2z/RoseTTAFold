@@ -12,7 +12,7 @@ echo "installing for ${platform}"
 echo "downloading lddt . . ."
 # wget https://openstructure.org/static/lddt-${platform}.zip -O lddt.zip
 # unzip -d lddt -j lddt.zip
-conda install bioconda::lddt 
+# conda install bioconda::lddt 
 mkdir -p lddt
 cp /opt/conda/pkgs/lddt-2.2-h9ee0642_0/bin/lddt ./lddt/
 cp /opt/conda/pkgs/lddt-2.2-h9ee0642_0/data/* ./lddt/
